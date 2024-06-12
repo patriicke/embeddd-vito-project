@@ -1,10 +1,10 @@
 import os
 import numpy as np
 import tensorflow as tf
-import keras.applications as kapp
+import tensorflow.keras.applications as kapp
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import normalize
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 from tqdm import tqdm
 import shutil
 
